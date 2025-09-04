@@ -1,13 +1,9 @@
 <p align="center">
-  <img src="assets/logo_VLA.jpg" alt="my_logo" width="80"/>
+  <img src="assets/logo_VLA.jpg" alt="my_logo" width="70"/>
 </p>
 
-# Lexie — MVP Compliance Copilot
-
-<p align="center">
-  <img src="assets/lexie_release_badge.jpg" alt="Lexie_release_badge" width="80"/>
-</p>
-
+# Lexie — MVP Compliance Copilot <p align="right">
+  <img src="assets/lexie_release_badge.jpg" alt="Lexie_release_badge" width="160"/> </p>
 
 An Agentic AI assistant to assess GDPR and AI Act compliance
 
