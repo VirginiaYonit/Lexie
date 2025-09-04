@@ -1,0 +1,21 @@
+pack_id: ai_act
+version: "OJ 2024"
+language: EN
+
+docs:
+  - id: ai_act
+    file: docs/ai_act_en.pdf
+
+anchors:
+  art3: "Article 3"
+  art52: "Article 52"
+  art71: "Article 71"
+  annex_ii: "Annex II"
+  annex_iii: "Annex III"
+  annex_iv: "Annex IV"
+
+keywords:
+  high-risk: [annex_iii]
+  biometric: [art3, annex_iii]
+  transparency: [art52]
+  conformity: [annex_iv, art71]

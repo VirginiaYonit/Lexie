@@ -1,0 +1,24 @@
+pack_id: gdpr
+version: "consolidated"
+language: EN
+docs:
+  - id: gdpr
+    file: docs/gdpr_en.pdf
+anchors:
+  art5:        "Article 5"
+  art6:        "Article 6"
+  art8:        "Article 8"
+  art9:        "Article 9"
+  art13:       "Article 13"
+  art30:       "Article 30"
+  art32:       "Article 32"
+  art35:       "Article 35"
+  art36:       "Article 36"
+  art22:       "Article 22"
+  recital26:   "Recital 26"
+keywords:
+  biometric: [art9, recital26]
+  children:  [art8]
+  profiling: [art22]
+  dpia:      [art35, art36]
+  security:  [art32]
