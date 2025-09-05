@@ -2,7 +2,7 @@
   <img src="assets/logo_VLA.jpg" alt="my_logo" width="70"/>
 </p>
 
-<h1 style="text-align: center;">Lexie - MVP Compliance Copilot</h1>
+<h1 align="center">Lexie - MVP Compliance Copilot</h1>
     
 <p align="center"> <img src="assets/lexie_release_badge.jpg" alt="Lexie_release_badge" width="160"/> </p>
 
