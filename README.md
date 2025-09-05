@@ -6,9 +6,10 @@
     
 <p align="center"> <img src="assets/lexie_release_badge.jpg" alt="Lexie_release_badge" width="160"/> </p>
 
-An Agentic AI assistant to assess GDPR and AI Act compliance
+An Agentic AI assistant to assess GDPR and AI Act compliance.
 
-Lexie analyzes policy documents (PDF) or free text and compares them to key articles in the GDPR and EU AI Act. It returns a downloadable human-readable PDF report with risk score, violations, citations, and recommendations.
+Lexie analyzes policy documents (PDF) or free text and compares them to key articles in the GDPR and EU AI Act. 
+It returns a downloadable human-readable PDF report with risk score, violations, citations, and recommendations.
 
 ---
 
