@@ -1,0 +1,6 @@
+gradio>=4.44
+reportlab>=4.1
+pdfminer.six>=20231228
+PyYAML>=6.0.1
+openai>=1.40
+numpy>=1.26

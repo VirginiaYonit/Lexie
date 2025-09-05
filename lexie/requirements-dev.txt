@@ -1,0 +1,15 @@
+# Dev & test dependencies for Lexie
+# ---------------------------------
+# Questo file estende requirements.txt con librerie utili a test, debug e qualità del codice.
+
+# Importa tutte le dipendenze di produzione
+-r requirements.txt
+
+-r requirements.txt
+
+pytest==8.3.3
+black==24.8.0
+flake8==7.1.0
+pytest-icdiff==0.5
+icdiff==2.0.7
+
