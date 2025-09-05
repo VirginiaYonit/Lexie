@@ -108,9 +108,13 @@ README.md
 Lexie is built using agentic, modular design:
 
 🔹 Context-first prompting like briefing a junior dev
+
 🔹 Rule-based logic via config.py and postprocess modules
+
 🔹 Validation-driven output: predictable, auditable results
+
 🔹 Model mixing: MiniLM for chunking, GPT-4 for reasoning
+
 🔹 Human-in-the-loop: tested and refined with real feedback
 
 Lexie isn’t just a wrapper,  it's a working assistant designed for clarity, traceability, and real compliance use cases.
@@ -160,9 +164,7 @@ Lexie includes fixtures, golden snapshots, and CLI test helpers.
 
 📎 Lexie Pipeline Overview:
 
-route → retrieve → analyze → postprocess → pdf_reporter
-            │                        │
-       (document)              (free text)
+route → retrieve (document) → analyze → postprocess (free text) → pdf_reporter
 
 ---
 
