@@ -6,7 +6,9 @@
     
 <p align="center"> <img src="assets/lexie_release_badge.jpg" alt="Lexie_release_badge" width="160"/> </p>
 
-An agentic AI assistant to assess GDPR and AI Act compliance.
+An Agentic AI assistant to assess GDPR and AI Act compliance.
+
+Version 1.0 – September 2025
 
 Lexie analyzes policy documents (PDF) or free text and compares them to key articles in the GDPR and EU AI Act. 
 It returns a downloadable human-readable PDF report with risk score, violations, citations, and recommendations.
@@ -97,8 +99,13 @@ lexie/
 runtime/
   logs/
   outputs/
+docs/
+  AI_Impact_Assessment_Lexie.pdf
+  AI_Policy_Lexie.pdf
+  Mini_SGA_Lexie.pdf
 app.py
 requirements.txt
+requirements-dev.txt
 README.md
 
 ---
@@ -170,7 +177,7 @@ route → retrieve (document) → analyze → postprocess (free text) → pdf_re
 
 ## 🧭 Acceptance Criteria
 
-- PDF reports in runtime/outputs/*.pdf
+- PDF reports are generated in runtime/outputs/
 - Matching violations ↔ citations
 - Graceful handling of:
   - Corrupted PDFs
@@ -205,13 +212,16 @@ Lexie does not make autonomous decisions. It requires textual input and assumes 
 ## 🌱 Guiding Principles
 
 ### Transparency
-All compliance logic is defined in human-readable Markdown files. Outputs follow a strict, verifiable JSON schema. Users are clearly informed about scope and limitations.
+Compliance logic is encoded in structured policy files (YAML/Markdown).  
+Outputs are validated against a strict JSON schema, but no machine-readable logs are stored.  
+Users are clearly informed about scope and limitations.
 
 ### Mandatory Human Oversight
 Lexie does not replace compliance officers. Reports must be reviewed and validated by authorized staff. No decisions are applied automatically.
 
 ### Data Minimization
-It does not retain, log, or store any JSON output. Reports are returned as downloadable PDFs only.
+Lexie processes input documents transiently and does not retain logs or machine-readable JSON outputs.  
+Reports are returned as downloadable PDFs only.
 
 ### Content Neutrality
 Lexie analyzes technical and organizational compliance. It never generates discriminatory, sensitive, or legally binding content.
@@ -243,7 +253,7 @@ This Responsible Use Policy was approved on September 4, 2025
 It will be reviewed within 12 months.
 
 AI System Owner: Virginia Levy Abulafia
-Signature: Digital or equivalent
+Signature: Digital or equivalent approval
 
 ---
 
